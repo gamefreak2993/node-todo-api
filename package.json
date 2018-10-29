@@ -1,0 +1,14 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "Small Node app that explores MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihai Vărșăndan",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.1.8"
+  }
+}
