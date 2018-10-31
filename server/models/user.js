@@ -84,8 +84,6 @@ UserSchema.pre("save", function(next) {
 
 const User = mongoose.model("User", UserSchema);
 
-User.createIndexes();
-
 module.exports = {
     User
 }
