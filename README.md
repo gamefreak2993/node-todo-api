@@ -14,20 +14,20 @@ View more scripts (tests included) in [**package.json**](https://github.com/game
 ### Create your user and to-dos
 A program like [**Postman**](https://www.getpostman.com/) will be extremely helpful to handle your requests.
 
-####Current routes are:
-..* GET /todos `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`;
-..* GET /todos/:id `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`;
-..* POST /todos `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`,
+#### Current routes are:
+⋅⋅* GET /todos `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`;
+⋅⋅* GET /todos/:id `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`;
+⋅⋅* POST /todos `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`,
 `{ "text": "Be awesome!" }` (this is just an example body);
-..* PATCH /todos/:id `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`,
+⋅⋅* PATCH /todos/:id `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`,
 `{ "completed": true }` (this is just an example body);
-..* DELETE /todos/:id `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`,
+⋅⋅* DELETE /todos/:id `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`,
 `{ "text": "Be awesome!" }` (this is just an example body -- Delete the body with the provided text);
-..* POST /users `Content-Type: application/json`,
+⋅⋅* POST /users `Content-Type: application/json`,
 `{ "email": "email@example.com", "password": "password123" }` (this is just an example body);
-..* GET /users/me `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`;
-..* DELETE /users/me/token `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]` (You will be logged out and previously provided token will be deleted);
-..* POST /users/login `Content-Type: application/json`,
+⋅⋅* GET /users/me `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]`;
+⋅⋅* DELETE /users/me/token `Content-Type: application/json`, `x-auth: [PROVIDED_TOKEN]` (You will be logged out and previously provided token will be deleted);
+⋅⋅* POST /users/login `Content-Type: application/json`,
 `{ "email": "email@example.com", "password": "password123" }` (this is just an example body -- You will be provided with a new token after logging out);
 ## License
 Node Todo API is Copyright &copy; 2018 Mihai Vărșăndan. View terms in the [**LICENSE**](https://github.com/gamefreak2993/node-todo-api/blob/master/LICENSE.txt) file.
