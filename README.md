@@ -8,6 +8,8 @@ In your terminal, `git clone https://github.com/gamefreak2993/node-todo-api.git`
 
 `cd node-todo-api` and `npm install` to install all the project dependencies.
 
+This project uses MongoDB and Mongoose to run.
+
 `node server/server.js` will start the server.
 
 View more scripts (tests included) in [**package.json**](https://github.com/gamefreak2993/node-todo-api/blob/master/package.json)
